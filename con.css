@@ -1,0 +1,384 @@
+body{
+    margin: 0;
+    background: #000000;
+    position: relative;
+}
+nav{
+    margin: 0;
+    padding: 0;
+    height: 130px;
+    z-index: 10;
+    width: 100%;
+}
+nav> ul> li{
+    display: inline;
+    float: right;
+}
+.logo{
+    display: inline;
+}
+.logo img{
+  height: 100px;
+    padding:0px;
+    margin: 0px;
+}
+nav> ul{
+    display: inline;
+}
+.navbar ul> li> a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    font-size-adjust: auto;
+
+}
+.navbar ul> li{
+    padding: 50px 40px;
+    font-size: 17px;
+    padding-right: 20px;
+}
+.navbar ul> li> a:hover{
+    border-radius: 20px;
+    background: rgb(95,189,116);
+    color: white;
+
+}
+.btn{
+    background: #21bf73;
+    color: white;
+     margin-left: 300px;
+    margin-top: 20px;
+}
+.btn:hover{
+    opacity: 80%;
+}
+.container{
+    width: 100%;
+}
+.container> h1 {
+    margin-top: 90px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #21bf73;
+}
+.container> p{
+  text-align: center;
+  color: white;
+}
+input{
+    margin-bottom: 30px;
+    width: 500px;
+    height: 50px;
+    margin-left: 300px;
+    background: #111;
+}
+textarea{
+    width: 500px;
+    height: 100px;
+     margin-left: 300px;
+    background: #111;
+    color: white;
+}
+input{
+    margin-bottom: 30px;
+    width: 500px;
+    height: 50px;
+    margin-left: 300px;
+    background: #111;
+    color: white;
+}
+p{
+  text-align: center;
+  color: white;
+}
+textarea{
+    width: 500px;
+    height: 100px;
+     margin-left: 300px;
+    background: #111;
+    color: white;
+}
+
+@media (max-width: 950px){
+  input{
+    margin-left: 0;
+  }
+  textarea{
+    margin-left: 0;
+  }
+  .btn{
+    margin: 0;
+  }
+  .container{
+    margin-left: 0;
+  }
+}
+
+
+
+
+@media (max-width: 1156px){
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+    }
+    .navbar ul{
+        display: flex;
+    }
+    .navbar ul li a{
+        padding: 10px;
+
+    }
+    .navbar ul li{
+        padding: 30px 75px;
+        margin: 0;
+
+    }
+    #nav1{
+        order: 4;
+    }
+    #nav2{
+        order:3;
+    }
+    #nav3{
+        order: 2;
+    }
+    #nav4{
+        order: 1;
+    }
+    .logo img{
+        padding: 0;
+        margin: 0;
+        position: relative;
+        margin: auto;
+        display: block;
+    }
+}
+
+@media (max-width: 1093px){
+    .navbar ul li{
+        padding: 30px 50px;
+        margin-left: 20px;
+    }
+
+
+}
+
+@media (max-width: 974px){
+
+    .navbar ul li{
+        padding: 30px 45px;
+        margin-left: 20px;
+    }
+
+}
+@media (max-width: 933px){
+    .navbar ul li{
+        padding: 30px 20px;
+        margin-left: 65px;
+    }
+}
+@media (max-width: 913px){
+
+     .navbar ul li{
+        padding: 30px 35px;
+        margin-left: 25px;
+    }
+
+}
+
+@media (max-width: 873px){
+    .navbar ul li{
+        padding: 30px 30px;
+        padding-right: 0;
+        margin-left: 30px;
+        margin-right: 20px;
+    }
+     .image img{
+        width: 600px;
+    }
+    .text{
+        margin-left: 20px;
+        margin-right: 0;
+        padding-right: 0px;
+    }
+}
+
+@media (max-width: 793px){
+    .navbar ul li{
+        padding: 30px 25px;
+        padding-right: 0;
+        margin-left: 30px;
+    }
+}
+@media (max-width: 757px){
+    .navbar ul li{
+        padding: 30px 25px;
+        padding-right: 0;
+        margin-left: 25px;
+    }
+}
+@media (max-width: 736px){
+    .navbar ul li{
+        padding: 30px 25px;
+        padding-right: 0;
+        margin-left: 20px;
+    }
+}
+@media (max-width: 713px){
+    .navbar ul li{
+        padding: 30px 25px;
+        padding-right: 0;
+        margin-left: 15px;
+    }
+}
+
+@media (max-width: 695px){
+    .navbar ul li{
+        padding: 30px 20px;
+        padding-right: 0;
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 653px){
+    .navbar ul li{
+        padding: 30px 20px;
+        padding-right: 0;
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 657px){
+    .navbar ul li{
+        padding: 30px 20px;
+        padding-right: 0;
+        margin-left: 10px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 613px){
+    .navbar ul li{
+        padding: 30px 10px;
+        padding-right: 0;
+        margin-left: 10px;
+        font-size: 15px;
+    }
+}
+@media (max-width: 579px){
+    .navbar ul li{
+        padding: 30px 5px;
+        padding-right: 0;
+        margin-left: 0px;
+
+    }
+    .navbar ul> li> a{
+    }
+}
+@media (max-width: 523px){
+    .navbar ul li{
+        padding: 30px 5px;
+        padding-right: 0;
+        margin-left: 5px;
+        font-size: 12px;
+    }
+
+
+}
+@media (max-width: 484px){
+    .navbar ul li{
+        padding: 30px 5px;
+        padding-right: 0;
+        margin-left: 5px;
+        font-size: 11px;
+    }
+  }
+@media (max-width: 471px){
+    .navbar ul li{
+        padding: 30px 0px;
+        padding-right: 0;
+        margin-left: 0px;
+        font-size: 11px;
+    }
+}
+@media (max-width: 426px){
+    .navbar ul li{
+        padding: 30px 0px;
+        padding-right: 0;
+        margin-left: 0px;
+        font-size: 11px;
+        margin-right: 10px;
+    }
+}
+@media (max-width: 411px){
+    .navbar ul li{
+        padding: 30px 0px;
+        padding-right: 0;
+        font-size: 11px;
+    }
+}
+@media (max-width: 404px){
+    .navbar ul li{
+        padding: 30px 0px;
+        padding-right: 0;
+        font-size: 11px;
+    }
+
+}
+@media (max-width: 391px){
+    .navbar ul li{
+        padding: 30px 0px;
+        font-size: 11px;
+        margin-right: 2px;
+    }
+    }
+@media (max-width: 371px){
+    .navbar ul li{
+        padding: 30px 0px;
+        font-size: 11px;
+        margin: 0;
+    }
+}
+
+@media (max-width: 347px){
+    .navbar ul li{
+        padding: 30px 0px;
+        font-size: 10px;
+        margin: 0;
+    }
+    .navbar ul li a{
+        padding-right: 10px;
+    }
+}
+@media (max-width: 347px){
+    .navbar ul li{
+        padding: 30px 0px;
+        font-size: 10px;
+        margin: 0;
+    }
+    .navbar ul li a{
+        padding-right: 5px;
+    }
+}
+@media (max-width: 309px){
+        .video video{
+        width: 250px;
+        height: 150px;
+         margin: 0;
+         padding: 0;
+}
+}
+
+@media (max-width: 303px){
+        .video video{
+        width: 250px;
+        height: 150px;
+         margin: 0;
+         padding: 0;
+}
+     .navbar ul li a{
+        padding-right: 0px;
+}
+}
