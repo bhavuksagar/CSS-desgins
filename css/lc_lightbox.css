@@ -7,6 +7,7 @@
 		url('fonts/lc_lightbox.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
+	font-size: 30px;
 }
 
 
@@ -67,6 +68,7 @@
     display: inline-block;
     height: 100%;
     vertical-align: middle;	
+	flex: row;
 }
 #lcl_wrap > * {
 	text-align: left;	
