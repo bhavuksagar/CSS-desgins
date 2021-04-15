@@ -102,10 +102,6 @@ Premium LC Lightbox version is implemented in the premium WordPress plugin [Glob
 &nbsp;
 
 
-Fun Fact
----
-
-Why release starts from v1.1? LC Lightbox has been used and developed for [Global Gallery](http://www.lcweb.it/global-gallery) WordPress plugin in 2017!
 
 * * *
 
