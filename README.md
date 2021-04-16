@@ -93,13 +93,7 @@ You can purchase the fully-featured premium version on [Codecanyon](https://code
 &nbsp;
 
 
-Extra
----
 
-Premium LC Lightbox version is implemented in the premium WordPress plugin [Global Gallery](http://www.lcweb.it/global-gallery)
-
-
-&nbsp;
 
 
 
