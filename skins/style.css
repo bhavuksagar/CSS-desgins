@@ -1,0 +1,605 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    margin: 0;
+    padding: 0;
+    height: 130px;
+    z-index: 10;
+    width: 100%;
+    border-bottom: 2px solid;
+}
+.navbar ul li{
+    display: inline;
+    float: right;
+}
+.logo{
+    display: inline;
+}
+.logo img{
+    padding-left: 90px;
+}
+.navbar ul{
+    display: inline;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: gray;
+    padding: 20px;
+    font-size-adjust: auto;
+    
+}
+.navbar ul li{
+    padding: 50px 40px;
+    font-size: 17px;
+    padding-right: 50px;
+}
+.navbar ul li a:hover{
+    border-radius: 20px;
+    background: rgb(95,189,116);
+    color: white;
+    
+}
+.home h1,p{
+     text-align: center;
+}
+.home p{
+        font-size:20px; 
+}
+
+.head{
+    padding-top: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+.head h1{
+    color: rgb(95,189,116); 
+    font-family: 'Great Vibes'; 
+    font-size: 70px;
+}
+
+.image img{
+    width: 570px;
+    height: 420px;
+    margin-left: 0;
+    padding-left: 0;
+    border-radius: 20px;
+}
+.text p{
+    padding: 50px 30px;
+    text-align: justify;
+}
+.products{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+}
+.video video{
+    width: 100%;
+    height: 550px;
+    border: 1px solid;
+    border-radius: 20px;
+}
+
+.boxpro{
+    width: 200px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+    
+}
+.but a{
+    float: right;
+    color: white;
+    text-decoration: none;
+}
+.btn{
+    background-color: rgb(95,189,116);
+}
+.btnhome{
+    background-color: rgb(95,189,116);
+    text-decoration: none;
+    color: white;
+}
+
+.ourpro img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    transition: transform .2s;
+}
+.ourpro img:hover{
+    transform: scale(1.2);
+    overflow: hidden;
+    border-radius: 10px;
+    border: 2px solid rgb(95,189,116);
+}
+
+footer{
+    background-color:rgb(72, 74, 73);
+    color: white;
+}
+.foot h3{
+    font-family: times roman;
+    padding-bottom: 15px;
+    border-bottom: 1px solid gray;
+}
+.foot p{
+    text-align: justify;
+}
+.pfoot{
+    padding-top: 6px;
+}
+.foot img{
+    width: 50px;
+    height: 50px;
+    margin-right: 35px;
+}
+.copyright{
+    height: 35px;
+    bottom: 0;
+    background: gray;
+}
+.cop{
+    display: inline;
+    margin-top: 20px
+}
+.my{
+    padding: 0;
+    margin: 0;
+    float: right;
+    display: inline;
+}
+
+
+
+
+.about p{
+    text-align: justify;
+    font-family: times roman;
+    font-size: 18px;
+}
+.about ul li{
+    list-style:circle;
+    font-size: 18px;
+}
+
+@media (max-width: 1200px){
+    footer{
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+    }
+    
+}
+
+@media (max-width: 1156px){
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+    }
+    .navbar ul{
+        display: flex;
+    }
+    .navbar ul li a{
+        padding: 10px;
+        
+    }
+    .navbar ul li{
+        padding: 30px 75px;
+        margin: 0;
+        
+    }
+    #nav1{
+        order: 4;
+    }
+    #nav2{
+        order:3;
+    }
+    #nav3{
+        order: 2;
+    }
+    #nav4{
+        order: 1;
+    }
+    footer{
+        width: 100%;
+    }
+    .logo img{
+        padding: 0;
+        margin: 0;
+        position: relative;
+        margin: auto;
+        display: block;
+    }
+}
+
+@media (max-width: 1340px){
+    .navbar ul li{
+        padding: 30px 30px;
+        margin-left: 20px;
+    }
+}
+    
+@media (max-width: 1287px){
+    .navbar ul li{
+        padding: 30px 25px;
+        margin-left: 20px;
+        font-size-adjust: auto;
+    }
+}
+    
+@media (max-width: 1238px){
+    .navbar ul li{
+        padding: 30px 20px;
+        margin-left: 20px;
+    }
+}
+    
+@media (max-width: 1191px){
+    .navbar ul li{
+        padding: 30px 15px;
+        margin-left: 20px;
+    }
+    
+}
+
+@media (max-width: 1093px){
+    .navbar ul li{
+        padding: 30px 30px;
+        margin-left: 19px;
+    }
+    
+    .image{
+        padding: 0;
+        margin: 0;
+    }
+    .image img{
+        width: 480px;
+        height: 460px;
+    }
+    
+}
+
+@media (max-width: 994px){
+     .image img{
+        width: 440px;
+        height: 460px;
+    }
+     .rowpro{
+        display: flex;
+    }
+    
+}
+
+@media (max-width: 994px){
+    .image{
+        margin-left: 10px;
+    }
+    .image img{
+        width: 780px;
+    }
+    .text{
+        margin-left: 80px;
+    }
+    .coo{
+        margin: 0px;
+    }
+}
+@media (max-width: 974px){
+    
+    .navbar ul li{
+        padding: 30px 20px;
+        margin-left: 20px;
+    }
+   
+}
+@media (max-width: 933px){
+    .navbar ul li{
+        padding: 30px 5px;
+        margin-left: 40px;
+    }
+    
+    .rowpro{
+        flex-flow: wrap;
+    }
+}
+@media (max-width: 913px){
+    
+     .navbar ul li{
+        padding: 30px 5px;
+        margin-left: 45px;
+    }
+    .image img{
+        width: 700px;
+    }
+    
+}
+
+@media (max-width: 873px){
+    .navbar ul li{
+        padding: 30px 5px;
+        padding-right: 0;
+        margin-left: 40px;
+    }
+     .image img{
+        width: 600px;
+    }
+    .text{
+        margin-left: 20px;
+        margin-right: 0;
+        padding-right: 0px;
+    }
+}
+
+@media (max-width: 793px){
+    .navbar ul li{
+        padding: 30px 5px;
+        padding-right: 0;
+        margin-left: 30px;
+    }
+}
+@media (max-width: 757px){
+    .navbar ul li{
+        padding: 30px 5px;
+        padding-right: 0;
+        margin-left: 20px;
+    }
+    .video video{
+        height: 300px;
+        width: 500px;
+        margin-left: 80px;
+    }
+}
+@media (max-width: 713px){
+    .navbar ul li{
+        padding: 30px 5px;
+        padding-right: 0;
+        margin-left: 10px;
+    }    
+}
+    
+@media (max-width: 653px){
+    .navbar ul li{
+        padding: 30px 5px;
+        padding-right: 0;
+        margin-left: 5px;
+        font-size: 16px;
+    }   
+    
+    .image img{
+        width: 500px;
+        height: 350px;
+    }
+    .rowpro{
+        margin-left: 50px;
+    }
+}
+    
+@media (max-width: 613px){
+    .navbar ul li{
+        padding: 30px 20px;
+        padding-right: 0;
+        margin-left: 10px;
+    }   
+    .video video{
+        margin-left: 30px;
+    }
+}
+    
+@media (max-width: 613px){
+    .navbar ul li{
+        padding: 30px 10px;
+        padding-right: 0;
+        margin-left: 10px;
+        font-size: 13px;
+    } 
+    .video video{
+        width: 400px;
+        margin-left: 50px;
+    }
+    .image img{
+        width: 400px;
+        height: 300px;
+        margin-left: 20px;
+    }
+    .copyright{
+        margin-top: 10px;
+    }
+    .text{
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 561px){
+     .navbar ul li{
+        padding: 30px 5px;
+        padding-right: 0;
+        margin-left: 8px;
+        font-size: 13px;
+    } 
+    
+}
+@media (max-width: 523px){
+    .navbar ul li{
+        padding: 30px 5px;
+        padding-right: 0;
+        margin-left: 8px;
+        font-size: 12px;
+    }
+    
+    .rowpro{
+        margin-left: 130px;
+    }
+}
+
+@media (max-width: 493px){
+    .navbar ul li{
+        padding: 30px 5px;
+        padding-right: 0;
+        margin-left: 8px;
+        font-size: 11px;
+    }
+}
+@media (max-width: 471px){
+    .navbar ul li{
+        padding: 30px 3px;
+        padding-right: 0;
+        margin-left: 4px;
+        font-size: 11px;
+    }
+    
+    .rowpro{
+        margin-left: 120px;
+    }
+    .video video{
+        margin-left: 15px;
+    }
+    .head{
+        margin-bottom:  0;
+    }
+    .image img{
+        width: 350px;
+        height: 250px;
+    }
+    .home p{
+        font-size:12px; 
+    }
+}
+@media (max-width: 471px){
+    .navbar ul li{
+        padding: 30px 5px;
+        padding-right: 0;
+        font-size: 11px;
+    }
+    .rowpro{
+        margin-left: 100px;
+    }
+    .video video{
+        margin-left: 25px;
+        width: 350px;
+        height: 200px;
+}
+}
+@media (max-width: 449px){
+     .navbar ul li{
+        padding: 30px 3px;
+        padding-right: 0;
+        font-size: 10px;
+    }
+}
+@media (max-width: 411px){
+    .navbar ul li{
+        padding: 30px 0px;
+        padding-right: 0;
+        font-size: 10px;
+        margin-left: 3px;
+    }
+    .rowpro{
+        margin-left: 90px;
+    }
+}
+@media (max-width: 391px){
+    .navbar ul li{
+        padding: 30px 0px;
+        font-size: 10px;
+        margin-left: 0px;
+    }
+     .image img{
+        width: 300px;
+        height: 200px;
+         margin-left: 20px;
+    }
+     .rowpro{
+        margin-left: 70px;
+    }
+    .video video{
+        margin-left: 10px;
+        width: 330px;
+        height: 180px;
+}
+     .home p{
+        font-size:10px; 
+    }
+    }
+@media (max-width: 371px){
+    .navbar ul li{
+        padding: 30px 0px;
+        font-size: 11px;
+        margin: 0;
+    }
+}
+
+@media (max-width: 347px){
+    .navbar ul li{
+        padding: 30px 0px;
+        font-size: 10px;
+        margin: 0;
+    }
+    .navbar ul li a{
+        padding-right: 10px;
+    }
+    .home p{
+        font-size:11px; 
+    }
+    .video video{
+        width: 300px;
+        height: 150px;
+}
+    .image img{
+        width: 300px;
+        height: 200px;
+        margin: 0;
+        padding: 0;
+    }
+    .rowpro{
+        margin-left: 50px;
+    }
+}
+@media (max-width: 347px){
+    .navbar ul li{
+        padding: 30px 0px;
+        font-size: 10px;
+        margin: 0;
+    }
+    .navbar ul li a{
+        padding-right: 5px;
+    }
+    .image img{
+        width: 250px;
+        height: 150px;
+        margin-left: 10px;
+        padding: 0;
+    }
+     .video video{
+        width: 300px;
+        height: 150px;
+         margin: 0;
+         padding: 0;
+}
+     .rowpro{
+        margin-left: 30px;
+    }
+}
+@media (max-width: 309px){
+        .video video{
+        width: 250px;
+        height: 150px;
+         margin: 0;
+         padding: 0;
+}
+}
+
+@media (max-width: 303px){
+        .video video{
+        width: 250px;
+        height: 150px;
+         margin: 0;
+         padding: 0;
+}
+     .navbar ul li a{
+        padding-right: 0px;
+}
